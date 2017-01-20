@@ -1,0 +1,2049 @@
+2013/05/09 00:03:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.0.40' (111)' in /var/www/yii/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /var/www/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/yii/framework/gii/generators/crud/CrudCode.php(44): CModule->__get('db')
+#5 /var/www/yii/framework/web/CFormModel.php(39): CrudCode->init()
+#6 /var/www/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /var/www/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /var/www/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud')
+#14 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/agroflorestas/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/crud
+HTTP_REFERER=http://localhost:8000/index.php?r=gii
+---
+2013/05/09 00:12:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.0.40' (111)' in /var/www/yii/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /var/www/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/yii/framework/gii/generators/crud/CrudCode.php(44): CModule->__get('db')
+#5 /var/www/yii/framework/web/CFormModel.php(39): CrudCode->init()
+#6 /var/www/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /var/www/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /var/www/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud')
+#14 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/agroflorestas/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/crud
+HTTP_REFERER=http://localhost:8000/index.php?r=gii/
+---
+2013/05/09 00:20:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host '192.168.0.40:12322' (2)' in /var/www/yii/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /var/www/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/yii/framework/gii/generators/crud/CrudCode.php(44): CModule->__get('db')
+#5 /var/www/yii/framework/web/CFormModel.php(39): CrudCode->init()
+#6 /var/www/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /var/www/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /var/www/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud')
+#14 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/agroflorestas/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/crud
+---
+2013/05/09 00:22:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host '192.168.0.40:12322' (2)' in /var/www/yii/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /var/www/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/yii/framework/gii/generators/crud/CrudCode.php(44): CModule->__get('db')
+#5 /var/www/yii/framework/web/CFormModel.php(39): CrudCode->init()
+#6 /var/www/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /var/www/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /var/www/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud')
+#14 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/agroflorestas/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/crud
+HTTP_REFERER=http://localhost:8000/index.php?r=gii/
+---
+2013/05/11 10:43:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on 'LAMP-TCC' (111)' in /var/www/yii/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /var/www/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/yii/framework/gii/generators/crud/CrudCode.php(44): CModule->__get('db')
+#5 /var/www/yii/framework/web/CFormModel.php(39): CrudCode->init()
+#6 /var/www/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /var/www/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /var/www/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud')
+#14 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/agroflorestas/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/crud
+HTTP_REFERER=http://localhost:8000/index.php?r=gii/
+---
+2013/05/11 10:48:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on 'LAMP-TCC' (4)' in /var/www/yii/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /var/www/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/yii/framework/gii/generators/crud/CrudCode.php(44): CModule->__get('db')
+#5 /var/www/yii/framework/web/CFormModel.php(39): CrudCode->init()
+#6 /var/www/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /var/www/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /var/www/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud')
+#14 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/agroflorestas/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/crud
+HTTP_REFERER=http://localhost:8000/index.php?r=gii/
+---
+2013/05/11 10:52:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host '192.168.0.40:12322' (2)' in /var/www/yii/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /var/www/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/yii/framework/gii/generators/crud/CrudCode.php(44): CModule->__get('db')
+#5 /var/www/yii/framework/web/CFormModel.php(39): CrudCode->init()
+#6 /var/www/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /var/www/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /var/www/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud')
+#14 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/agroflorestas/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/crud
+HTTP_REFERER=http://localhost:8000/index.php?r=gii/
+---
+2013/05/11 11:01:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.0.40' (111)' in /var/www/yii/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /var/www/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/yii/framework/gii/generators/crud/CrudCode.php(44): CModule->__get('db')
+#5 /var/www/yii/framework/web/CFormModel.php(39): CrudCode->init()
+#6 /var/www/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /var/www/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /var/www/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud')
+#14 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/agroflorestas/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/crud
+HTTP_REFERER=http://localhost:8000/index.php?r=gii/
+---
+2013/05/11 20:42:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.0.40' (111)' in /var/www/yii/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /var/www/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/yii/framework/gii/generators/crud/CrudCode.php(44): CModule->__get('db')
+#5 /var/www/yii/framework/web/CFormModel.php(39): CrudCode->init()
+#6 /var/www/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /var/www/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /var/www/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud')
+#14 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/agroflorestas/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/crud
+HTTP_REFERER=http://localhost:8000/index.php?r=gii/
+---
+2013/05/11 21:08:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.0.40' (111)' in /var/www/yii/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /var/www/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/yii/framework/gii/generators/crud/CrudCode.php(44): CModule->__get('db')
+#5 /var/www/yii/framework/web/CFormModel.php(39): CrudCode->init()
+#6 /var/www/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /var/www/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /var/www/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud')
+#14 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/agroflorestas/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/crud
+---
+2013/05/11 21:36:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Propriedade".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Propriedade')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=Propriedade
+---
+2013/05/11 21:36:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propriedades".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propriedades')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=propriedades
+---
+2013/05/11 21:36:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propriedade".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propriedade')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=propriedade
+---
+2013/05/11 21:39:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "propriedades".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('propriedades')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('propriedades')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/propriedad...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/agroflorestas/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/propriedades
+---
+2013/05/11 21:39:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "propriedade".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('propriedade')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('propriedade')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/propriedad...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/agroflorestas/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/propriedade
+---
+2013/05/12 12:15:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Propriedade".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('Propriedade')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('Propriedade')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/Propriedad...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/agroflorestas/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/Propriedade
+---
+2013/05/12 12:16:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Propriedades".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('Propriedades')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('Propriedades')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/Propriedad...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/agroflorestas/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/Propriedades
+---
+2013/05/12 12:16:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Propriedades".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Propriedades')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=Propriedades
+---
+2013/05/12 12:17:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Propriedades".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Propriedades')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=Propriedades
+---
+2013/05/12 12:20:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Propriedades".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Propriedades')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Propriedades
+---
+2013/05/12 12:21:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Gii".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Gii')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Gii
+---
+2013/05/12 12:27:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Propriedades".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Propriedades')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Propriedades
+---
+2013/05/12 12:27:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Area".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('Area')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('Area')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Agroflorestas/A...')
+#3 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/agroflorestas/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Agroflorestas/Area
+---
+2013/05/12 20:08:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/screen.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/screen....')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/screen.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 20:08:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/print.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/print.c...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/print.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 20:08:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/form.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/form.cs...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/form.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:26:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/screen.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/screen....')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/screen.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:26:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/print.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/print.c...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/print.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:26:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/main.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/main.cs...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/main.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:26:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/form.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/form.cs...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/form.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:27:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/screen.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/screen....')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/screen.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:27:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/print.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/print.c...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/print.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:27:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/main.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/main.cs...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/main.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:27:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/form.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/form.cs...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/form.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:30:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/screen.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/screen....')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/screen.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:30:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/print.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/print.c...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/print.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:30:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/main.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/main.cs...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/main.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:30:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/form.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/form.cs...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/form.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:31:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/screen.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/screen....')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/screen.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:31:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/print.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/print.c...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/print.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:31:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/main.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/main.cs...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/main.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:31:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/form.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/form.cs...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/form.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:31:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/screen.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/screen....')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/screen.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:31:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/print.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/print.c...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/print.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:31:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/main.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/main.cs...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/main.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:31:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/form.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/form.cs...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/form.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:31:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/screen.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/screen....')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/screen.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:31:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/print.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/print.c...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/print.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:31:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/main.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/main.cs...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/main.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:31:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/form.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/form.cs...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/form.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:31:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/screen.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/screen....')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/screen.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:31:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/print.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/print.c...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/print.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:31:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/main.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/main.cs...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/main.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:31:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/form.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/form.cs...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/form.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/12 23:56:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/yourscript.js".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/yourscript.j...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/yourscript.js
+HTTP_REFERER=http://localhost:8000/
+---
+2013/05/13 00:30:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/screen.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/screen....')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/screen.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/13 00:30:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/print.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/print.c...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/print.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/13 00:30:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/main.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/main.cs...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/main.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/13 00:30:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/form.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/form.cs...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/form.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/13 00:30:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/screen.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/screen....')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/screen.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/13 00:30:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/print.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/print.c...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/print.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/13 00:30:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/main.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/main.cs...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/main.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/13 00:30:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/css/form.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/css/form.cs...')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/css/form.css
+HTTP_REFERER=http://localhost:8000/css/main.css
+---
+2013/05/13 00:44:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/13 00:45:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/13 00:45:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "screen.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('screen.css')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/screen.css
+HTTP_REFERER=http://localhost:8000/
+---
+2013/05/13 00:45:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "print.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('print.css')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/print.css
+HTTP_REFERER=http://localhost:8000/
+---
+2013/05/13 00:45:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('main.css')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/main.css
+HTTP_REFERER=http://localhost:8000/
+---
+2013/05/13 00:45:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "form.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('form.css')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/form.css
+HTTP_REFERER=http://localhost:8000/
+---
+2013/05/13 00:46:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "screen.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('screen.css')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/screen.css
+HTTP_REFERER=http://localhost:8000/
+---
+2013/05/13 00:46:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "print.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('print.css')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/print.css
+HTTP_REFERER=http://localhost:8000/
+---
+2013/05/13 00:46:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('main.css')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/main.css
+HTTP_REFERER=http://localhost:8000/
+---
+2013/05/13 00:48:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/13 22:13:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'AGROFLORESTAS.Area' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `Area`.
+in /var/www/agroflorestas/index.php (15)
+2013/05/14 00:19:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Agroflorestas".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Agroflorestas')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/Agroflorestas
+---
+2013/05/14 10:25:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Agroflorestas".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Agroflorestas')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/Agroflorestas
+---
+2013/05/21 22:40:15 [error] [php] include(User.php): failed to open stream: No such file or directory (/var/www/yii/framework/YiiBase.php:421)
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(14): spl_autoload_call()
+#1 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate()
+#3 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute()
+#4 /var/www/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#5 /var/www/agroflorestas/protected/controllers/SiteController.php(94): LoginForm->validate()
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#9 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#10 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/agroflorestas/index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php/site/login
+in /var/www/agroflorestas/protected/components/UserIdentity.php (14)
+in /var/www/agroflorestas/protected/models/LoginForm.php (52)
+in /var/www/agroflorestas/protected/controllers/SiteController.php (94)
+2013/05/21 22:41:11 [error] [php] include(User.php): failed to open stream: No such file or directory (/var/www/yii/framework/YiiBase.php:421)
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(14): spl_autoload_call()
+#1 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate()
+#3 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute()
+#4 /var/www/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#5 /var/www/agroflorestas/protected/controllers/SiteController.php(94): LoginForm->validate()
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#9 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#10 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/agroflorestas/index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php/site/login
+in /var/www/agroflorestas/protected/components/UserIdentity.php (14)
+in /var/www/agroflorestas/protected/models/LoginForm.php (52)
+in /var/www/agroflorestas/protected/controllers/SiteController.php (94)
+2013/05/21 22:42:50 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.login" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(14): CComponent->__get('login')
+#1 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/agroflorestas/index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 22:45:08 [error] [exception.CException] exception 'CException' with message 'Property "CActiveDataProvider.password" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(17): CComponent->__get('password')
+#1 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/agroflorestas/index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 22:49:44 [error] [exception.CException] exception 'CException' with message 'Property "CActiveDataProvider.Senha" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(17): CComponent->__get('Senha')
+#1 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/agroflorestas/index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 22:59:20 [error] [exception.CDbException] exception 'CDbException' with message 'Table "Usuario" does not have a column named "username".' in /var/www/yii/framework/db/schema/CDbCommandBuilder.php:591
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1464): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#1 /var/www/agroflorestas/protected/components/UserIdentity.php(14): CActiveRecord->findByAttributes(Array)
+#2 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#3 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#8 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#12 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /var/www/agroflorestas/index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 22:59:51 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.login" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(14): CComponent->__get('login')
+#1 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/agroflorestas/index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 23:00:36 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.Login" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(14): CComponent->__get('Login')
+#1 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/agroflorestas/index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 23:02:12 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.Senha" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(18): CComponent->__get('Senha')
+#1 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/agroflorestas/index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 23:04:26 [error] [exception.CException] exception 'CException' with message 'Property "Usuario.id" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(143): CComponent->__get('id')
+#1 /var/www/agroflorestas/protected/components/UserIdentity.php(22): CActiveRecord->__get('id')
+#2 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#3 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#8 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#12 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /var/www/agroflorestas/index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 23:06:45 [error] [exception.CException] exception 'CException' with message 'Property "Usuario.title" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(143): CComponent->__get('title')
+#1 /var/www/agroflorestas/protected/components/UserIdentity.php(22): CActiveRecord->__get('title')
+#2 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#3 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#8 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#12 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /var/www/agroflorestas/index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 23:14:40 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.login" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yii/framework/web/helpers/CHtml.php(2255): CComponent->__get('login')
+#1 /var/www/yii/framework/web/helpers/CHtml.php(1980): CHtml::resolveValue(Object(LoginForm), 'login')
+#2 /var/www/yii/framework/web/helpers/CHtml.php(1257): CHtml::activeInputField('text', Object(LoginForm), 'login', Array)
+#3 /var/www/yii/framework/web/widgets/CActiveForm.php(657): CHtml::activeTextField(Object(LoginForm), 'login', Array)
+#4 /var/www/agroflorestas/protected/views/site/login.php(27): CActiveForm->textField(Object(LoginForm), 'login')
+#5 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#6 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('login', Array, true)
+#9 /var/www/agroflorestas/protected/controllers/SiteController.php(98): CController->render('login', Array)
+#10 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#11 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#15 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#16 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /var/www/agroflorestas/index.php(17): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/
+---
+2013/05/21 23:17:48 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.login" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(13): CComponent->__get('login')
+#1 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('senha', Array)
+#3 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'senha')
+#4 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/agroflorestas/index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 23:19:27 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.login" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(13): CComponent->__get('login')
+#1 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('senha', Array)
+#3 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'senha')
+#4 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/agroflorestas/index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 23:21:01 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.login" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(13): CComponent->__get('login')
+#1 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('senha', Array)
+#3 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'senha')
+#4 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/agroflorestas/index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 23:26:44 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.login" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yii/framework/web/helpers/CHtml.php(2255): CComponent->__get('login')
+#1 /var/www/yii/framework/web/helpers/CHtml.php(1980): CHtml::resolveValue(Object(LoginForm), 'login')
+#2 /var/www/yii/framework/web/helpers/CHtml.php(1257): CHtml::activeInputField('text', Object(LoginForm), 'login', Array)
+#3 /var/www/yii/framework/web/widgets/CActiveForm.php(657): CHtml::activeTextField(Object(LoginForm), 'login', Array)
+#4 /var/www/agroflorestas/protected/views/site/login.php(27): CActiveForm->textField(Object(LoginForm), 'login')
+#5 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#6 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('login', Array, true)
+#9 /var/www/agroflorestas/protected/controllers/SiteController.php(98): CController->render('login', Array)
+#10 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#11 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#15 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#16 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /var/www/agroflorestas/index.php(17): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/
+---
+2013/05/21 23:27:51 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.login" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(13): CComponent->__get('login')
+#1 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/agroflorestas/index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 23:28:23 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.senha" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(17): CComponent->__get('senha')
+#1 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/agroflorestas/index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 23:30:26 [warning] [application] Failed to set unsafe attribute "username" of "LoginForm".
+in /var/www/agroflorestas/protected/controllers/SiteController.php (92)
+in /var/www/agroflorestas/index.php (17)
+2013/05/21 23:30:26 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.Login" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yii/framework/validators/CRequiredValidator.php(51): CComponent->__get('Login')
+#1 /var/www/yii/framework/validators/CValidator.php(213): CRequiredValidator->validateAttribute(Object(LoginForm), 'Login')
+#2 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#3 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#4 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#5 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#9 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#10 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /var/www/agroflorestas/index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 23:30:40 [warning] [application] Failed to set unsafe attribute "username" of "LoginForm".
+in /var/www/agroflorestas/protected/controllers/SiteController.php (92)
+in /var/www/agroflorestas/index.php (17)
+2013/05/21 23:30:40 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.Login" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yii/framework/validators/CRequiredValidator.php(51): CComponent->__get('Login')
+#1 /var/www/yii/framework/validators/CValidator.php(213): CRequiredValidator->validateAttribute(Object(LoginForm), 'Login')
+#2 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#3 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#4 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#5 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#9 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#10 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /var/www/agroflorestas/index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 23:32:04 [warning] [application] Failed to set unsafe attribute "username" of "LoginForm".
+in /var/www/agroflorestas/protected/controllers/SiteController.php (92)
+in /var/www/agroflorestas/index.php (17)
+2013/05/21 23:32:04 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.password" is not defined.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/framework/base/CModel.php(471): CComponent->__set('password', 'vrigon')
+#1 /var/www/yii/framework/base/CComponent.php(152): CModel->setAttributes(Array)
+#2 /var/www/agroflorestas/protected/controllers/SiteController.php(92): CComponent->__set('attributes', Array)
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#9 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /var/www/agroflorestas/index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 23:32:08 [warning] [application] Failed to set unsafe attribute "username" of "LoginForm".
+in /var/www/agroflorestas/protected/controllers/SiteController.php (92)
+in /var/www/agroflorestas/index.php (17)
+2013/05/21 23:32:08 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.password" is not defined.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/framework/base/CModel.php(471): CComponent->__set('password', 'vrigon')
+#1 /var/www/yii/framework/base/CComponent.php(152): CModel->setAttributes(Array)
+#2 /var/www/agroflorestas/protected/controllers/SiteController.php(92): CComponent->__set('attributes', Array)
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#9 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /var/www/agroflorestas/index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 23:32:36 [warning] [application] Failed to set unsafe attribute "username" of "LoginForm".
+in /var/www/agroflorestas/protected/controllers/SiteController.php (92)
+in /var/www/agroflorestas/index.php (17)
+2013/05/21 23:32:36 [warning] [application] Failed to set unsafe attribute "password" of "LoginForm".
+in /var/www/agroflorestas/protected/controllers/SiteController.php (92)
+in /var/www/agroflorestas/index.php (17)
+2013/05/21 23:32:36 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.username" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yii/framework/web/helpers/CHtml.php(2255): CComponent->__get('username')
+#1 /var/www/yii/framework/web/helpers/CHtml.php(1980): CHtml::resolveValue(Object(LoginForm), 'username')
+#2 /var/www/yii/framework/web/helpers/CHtml.php(1257): CHtml::activeInputField('text', Object(LoginForm), 'username', Array)
+#3 /var/www/yii/framework/web/widgets/CActiveForm.php(657): CHtml::activeTextField(Object(LoginForm), 'username', Array)
+#4 /var/www/agroflorestas/protected/views/site/login.php(27): CActiveForm->textField(Object(LoginForm), 'username')
+#5 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#6 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('login', Array, true)
+#9 /var/www/agroflorestas/protected/controllers/SiteController.php(98): CController->render('login', Array)
+#10 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#11 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#15 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#16 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /var/www/agroflorestas/index.php(17): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 23:33:25 [warning] [application] Failed to set unsafe attribute "username" of "LoginForm".
+in /var/www/agroflorestas/protected/controllers/SiteController.php (92)
+in /var/www/agroflorestas/index.php (17)
+2013/05/21 23:33:25 [warning] [application] Failed to set unsafe attribute "password" of "LoginForm".
+in /var/www/agroflorestas/protected/controllers/SiteController.php (92)
+in /var/www/agroflorestas/index.php (17)
+2013/05/21 23:33:33 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.Login" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(13): CComponent->__get('Login')
+#1 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('Senha', Array)
+#3 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'Senha')
+#4 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/agroflorestas/index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 23:35:05 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.Login" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(13): CComponent->__get('Login')
+#1 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('Senha', Array)
+#3 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'Senha')
+#4 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/agroflorestas/index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 23:36:05 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.Login" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(13): CComponent->__get('Login')
+#1 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('Senha', Array)
+#3 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'Senha')
+#4 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/agroflorestas/index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 23:36:27 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.login" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(13): CComponent->__get('login')
+#1 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('Senha', Array)
+#3 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'Senha')
+#4 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/agroflorestas/index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 23:36:36 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.puto" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(13): CComponent->__get('puto')
+#1 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('Senha', Array)
+#3 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'Senha')
+#4 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/agroflorestas/index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/21 23:36:48 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.Senha" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(17): CComponent->__get('Senha')
+#1 /var/www/agroflorestas/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /var/www/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('Senha', Array)
+#3 /var/www/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'Senha')
+#4 /var/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 /var/www/agroflorestas/protected/controllers/SiteController.php(94): CModel->validate()
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/agroflorestas/index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/22 21:59:09 [error] [php] Missing argument 3 for CActiveForm::dropDownList(), called in /var/www/agroflorestas/protected/views/admin/menu/_form.php on line 20 and defined (/var/www/yii/framework/web/widgets/CActiveForm.php:761)
+Stack trace:
+#0 /var/www/yii/framework/web/CBaseController.php(95): MenuController->renderInternal()
+#1 /var/www/yii/framework/web/CController.php(869): MenuController->renderFile()
+#2 /var/www/agroflorestas/protected/views/admin/menu/create.php(18): MenuController->renderPartial()
+#3 /var/www/yii/framework/web/CBaseController.php(126): require()
+#4 /var/www/yii/framework/web/CBaseController.php(95): MenuController->renderInternal()
+#5 /var/www/yii/framework/web/CController.php(869): MenuController->renderFile()
+#6 /var/www/yii/framework/web/CController.php(782): MenuController->renderPartial()
+#7 /var/www/agroflorestas/protected/controllers/admin/MenuController.php(79): MenuController->render()
+#8 /var/www/yii/framework/web/actions/CInlineAction.php(49): MenuController->actionCreate()
+#9 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /var/www/yii/framework/web/filters/CFilterChain.php(133): MenuController->runAction()
+#11 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /var/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#13 /var/www/yii/framework/web/filters/CInlineFilter.php(58): MenuController->filterAccessControl()
+#14 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#15 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#16 /var/www/yii/framework/web/CController.php(265): MenuController->runActionWithFilters()
+#17 /var/www/yii/framework/web/CWebApplication.php(282): MenuController->run()
+#18 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#19 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#20 /var/www/agroflorestas/index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php/admin/menu/create
+in /var/www/agroflorestas/protected/views/admin/menu/_form.php (20)
+in /var/www/agroflorestas/protected/views/admin/menu/create.php (18)
+in /var/www/agroflorestas/protected/controllers/admin/MenuController.php (79)
+2013/05/22 22:01:59 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'. The SQL statement executed was: SELECT * FROM `Grupo` `t` ORDER BY name ASC.
+in /var/www/agroflorestas/protected/views/admin/menu/_form.php (20)
+in /var/www/agroflorestas/protected/views/admin/menu/create.php (18)
+in /var/www/agroflorestas/protected/controllers/admin/MenuController.php (79)
+2013/05/22 22:01:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'. The SQL statement executed was: SELECT * FROM `Grupo` `t` ORDER BY name ASC' in /var/www/yii/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /var/www/yii/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 /var/www/yii/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /var/www/agroflorestas/protected/views/admin/menu/_form.php(20): CActiveRecord->findAll(Array)
+#4 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#5 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#6 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#7 /var/www/agroflorestas/protected/views/admin/menu/create.php(18): CController->renderPartial('_form', Array)
+#8 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#9 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#10 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#11 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /var/www/agroflorestas/protected/controllers/admin/MenuController.php(79): CController->render('create', Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(49): MenuController->actionCreate()
+#14 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#23 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/menu/crea...')
+#24 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#25 /var/www/agroflorestas/index.php(17): CApplication->run()
+#26 {main}
+REQUEST_URI=/index.php/admin/menu/create
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/22 22:02:24 [error] [exception.CException] exception 'CException' with message 'Property "Grupo.Grupo" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(143): CComponent->__get('Grupo')
+#1 /var/www/yii/framework/web/helpers/CHtml.php(2255): CActiveRecord->__get('Grupo')
+#2 /var/www/yii/framework/web/helpers/CHtml.php(1565): CHtml::resolveValue(Object(Grupo), 'Grupo')
+#3 /var/www/yii/framework/web/widgets/CActiveForm.php(763): CHtml::activeDropDownList(Object(Grupo), 'Grupo', Array, Array)
+#4 /var/www/agroflorestas/protected/views/admin/menu/_form.php(20): CActiveForm->dropDownList(Object(Grupo), 'Grupo', Array, Array)
+#5 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#6 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#8 /var/www/agroflorestas/protected/views/admin/menu/create.php(18): CController->renderPartial('_form', Array)
+#9 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#10 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#11 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#12 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#13 /var/www/agroflorestas/protected/controllers/admin/MenuController.php(79): CController->render('create', Array)
+#14 /var/www/yii/framework/web/actions/CInlineAction.php(49): MenuController->actionCreate()
+#15 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#22 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#24 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/menu/crea...')
+#25 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#26 /var/www/agroflorestas/index.php(17): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php/admin/menu/create
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/22 22:11:10 [error] [exception.CException] exception 'CException' with message 'Property "Menu.Nome" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(143): CComponent->__get('Nome')
+#1 /var/www/yii/framework/web/helpers/CHtml.php(2255): CActiveRecord->__get('Nome')
+#2 /var/www/yii/framework/web/helpers/CHtml.php(1565): CHtml::resolveValue(Object(Menu), 'Nome')
+#3 /var/www/yii/framework/web/widgets/CActiveForm.php(763): CHtml::activeDropDownList(Object(Menu), 'Nome', Array, Array)
+#4 /var/www/agroflorestas/protected/views/admin/menu/_form.php(21): CActiveForm->dropDownList(Object(Menu), 'Nome', Array, Array)
+#5 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#6 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#8 /var/www/agroflorestas/protected/views/admin/menu/create.php(18): CController->renderPartial('_form', Array)
+#9 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#10 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#11 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#12 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#13 /var/www/agroflorestas/protected/controllers/admin/MenuController.php(79): CController->render('create', Array)
+#14 /var/www/yii/framework/web/actions/CInlineAction.php(49): MenuController->actionCreate()
+#15 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#22 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#24 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/menu/crea...')
+#25 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#26 /var/www/agroflorestas/index.php(17): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php/admin/menu/create
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/22 22:15:44 [error] [php] Array to string conversion (/var/www/agroflorestas/protected/views/admin/menu/_form.php:26)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): MenuController->renderFile()
+#1 /var/www/agroflorestas/protected/views/admin/menu/create.php(18): MenuController->renderPartial()
+#2 /var/www/yii/framework/web/CBaseController.php(126): require()
+#3 /var/www/yii/framework/web/CBaseController.php(95): MenuController->renderInternal()
+#4 /var/www/yii/framework/web/CController.php(869): MenuController->renderFile()
+#5 /var/www/yii/framework/web/CController.php(782): MenuController->renderPartial()
+#6 /var/www/agroflorestas/protected/controllers/admin/MenuController.php(79): MenuController->render()
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(49): MenuController->actionCreate()
+#8 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(133): MenuController->runAction()
+#10 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /var/www/yii/framework/web/filters/CInlineFilter.php(58): MenuController->filterAccessControl()
+#13 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /var/www/yii/framework/web/CController.php(265): MenuController->runActionWithFilters()
+#16 /var/www/yii/framework/web/CWebApplication.php(282): MenuController->run()
+#17 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#19 /var/www/agroflorestas/index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php/admin/menu/create
+in /var/www/agroflorestas/protected/views/admin/menu/_form.php (26)
+in /var/www/agroflorestas/protected/views/admin/menu/create.php (18)
+in /var/www/agroflorestas/protected/controllers/admin/MenuController.php (79)
+2013/05/22 22:16:43 [error] [php] Object of class Grupo could not be converted to string (/var/www/agroflorestas/protected/views/admin/menu/_form.php:27)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): MenuController->renderFile()
+#1 /var/www/agroflorestas/protected/views/admin/menu/create.php(18): MenuController->renderPartial()
+#2 /var/www/yii/framework/web/CBaseController.php(126): require()
+#3 /var/www/yii/framework/web/CBaseController.php(95): MenuController->renderInternal()
+#4 /var/www/yii/framework/web/CController.php(869): MenuController->renderFile()
+#5 /var/www/yii/framework/web/CController.php(782): MenuController->renderPartial()
+#6 /var/www/agroflorestas/protected/controllers/admin/MenuController.php(79): MenuController->render()
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(49): MenuController->actionCreate()
+#8 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(133): MenuController->runAction()
+#10 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /var/www/yii/framework/web/filters/CInlineFilter.php(58): MenuController->filterAccessControl()
+#13 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /var/www/yii/framework/web/CController.php(265): MenuController->runActionWithFilters()
+#16 /var/www/yii/framework/web/CWebApplication.php(282): MenuController->run()
+#17 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#19 /var/www/agroflorestas/index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php/admin/menu/create
+in /var/www/agroflorestas/protected/views/admin/menu/_form.php (27)
+in /var/www/agroflorestas/protected/views/admin/menu/create.php (18)
+in /var/www/agroflorestas/protected/controllers/admin/MenuController.php (79)
+2013/05/22 22:16:59 [error] [php] Use of undefined constant Nome - assumed 'Nome' (/var/www/agroflorestas/protected/views/admin/menu/_form.php:27)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): MenuController->renderFile()
+#1 /var/www/agroflorestas/protected/views/admin/menu/create.php(18): MenuController->renderPartial()
+#2 /var/www/yii/framework/web/CBaseController.php(126): require()
+#3 /var/www/yii/framework/web/CBaseController.php(95): MenuController->renderInternal()
+#4 /var/www/yii/framework/web/CController.php(869): MenuController->renderFile()
+#5 /var/www/yii/framework/web/CController.php(782): MenuController->renderPartial()
+#6 /var/www/agroflorestas/protected/controllers/admin/MenuController.php(79): MenuController->render()
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(49): MenuController->actionCreate()
+#8 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(133): MenuController->runAction()
+#10 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /var/www/yii/framework/web/filters/CInlineFilter.php(58): MenuController->filterAccessControl()
+#13 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /var/www/yii/framework/web/CController.php(265): MenuController->runActionWithFilters()
+#16 /var/www/yii/framework/web/CWebApplication.php(282): MenuController->run()
+#17 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#19 /var/www/agroflorestas/index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php/admin/menu/create
+in /var/www/agroflorestas/protected/views/admin/menu/_form.php (27)
+in /var/www/agroflorestas/protected/views/admin/menu/create.php (18)
+in /var/www/agroflorestas/protected/controllers/admin/MenuController.php (79)
+2013/05/22 22:35:49 [error] [php] Undefined variable: grupo (/var/www/agroflorestas/protected/views/admin/menu/_form.php:26)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): MenuController->renderFile()
+#1 /var/www/agroflorestas/protected/views/admin/menu/create.php(18): MenuController->renderPartial()
+#2 /var/www/yii/framework/web/CBaseController.php(126): require()
+#3 /var/www/yii/framework/web/CBaseController.php(95): MenuController->renderInternal()
+#4 /var/www/yii/framework/web/CController.php(869): MenuController->renderFile()
+#5 /var/www/yii/framework/web/CController.php(782): MenuController->renderPartial()
+#6 /var/www/agroflorestas/protected/controllers/admin/MenuController.php(79): MenuController->render()
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(49): MenuController->actionCreate()
+#8 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(133): MenuController->runAction()
+#10 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /var/www/yii/framework/web/filters/CInlineFilter.php(58): MenuController->filterAccessControl()
+#13 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /var/www/yii/framework/web/CController.php(265): MenuController->runActionWithFilters()
+#16 /var/www/yii/framework/web/CWebApplication.php(282): MenuController->run()
+#17 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#19 /var/www/agroflorestas/index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php/admin/menu/create
+in /var/www/agroflorestas/protected/views/admin/menu/_form.php (26)
+in /var/www/agroflorestas/protected/views/admin/menu/create.php (18)
+in /var/www/agroflorestas/protected/controllers/admin/MenuController.php (79)
+2013/05/22 22:37:07 [error] [php] Undefined variable: select (/var/www/agroflorestas/protected/views/admin/menu/_form.php:26)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): MenuController->renderFile()
+#1 /var/www/agroflorestas/protected/views/admin/menu/create.php(18): MenuController->renderPartial()
+#2 /var/www/yii/framework/web/CBaseController.php(126): require()
+#3 /var/www/yii/framework/web/CBaseController.php(95): MenuController->renderInternal()
+#4 /var/www/yii/framework/web/CController.php(869): MenuController->renderFile()
+#5 /var/www/yii/framework/web/CController.php(782): MenuController->renderPartial()
+#6 /var/www/agroflorestas/protected/controllers/admin/MenuController.php(79): MenuController->render()
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(49): MenuController->actionCreate()
+#8 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(133): MenuController->runAction()
+#10 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /var/www/yii/framework/web/filters/CInlineFilter.php(58): MenuController->filterAccessControl()
+#13 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /var/www/yii/framework/web/CController.php(265): MenuController->runActionWithFilters()
+#16 /var/www/yii/framework/web/CWebApplication.php(282): MenuController->run()
+#17 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#19 /var/www/agroflorestas/index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php/admin/menu/create
+in /var/www/agroflorestas/protected/views/admin/menu/_form.php (26)
+in /var/www/agroflorestas/protected/views/admin/menu/create.php (18)
+in /var/www/agroflorestas/protected/controllers/admin/MenuController.php (79)
+2013/05/22 22:47:46 [error] [exception.CException] exception 'CException' with message 'Property "Grupo.IdGrupo" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(143): CComponent->__get('IdGrupo')
+#1 /var/www/yii/framework/web/helpers/CHtml.php(2255): CActiveRecord->__get('IdGrupo')
+#2 /var/www/yii/framework/web/helpers/CHtml.php(1565): CHtml::resolveValue(Object(Grupo), 'IdGrupo')
+#3 /var/www/yii/framework/web/widgets/CActiveForm.php(763): CHtml::activeDropDownList(Object(Grupo), 'IdGrupo', Array, Array)
+#4 /var/www/agroflorestas/protected/views/admin/menu/_form.php(29): CActiveForm->dropDownList(Object(Grupo), 'IdGrupo', Array, Array)
+#5 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#6 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#8 /var/www/agroflorestas/protected/views/admin/menu/update.php(21): CController->renderPartial('_form', Array)
+#9 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#10 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#11 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#12 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('update', Array, true)
+#13 /var/www/agroflorestas/protected/controllers/admin/MenuController.php(103): CController->render('update', Array)
+#14 [internal function]: MenuController->actionUpdate('1')
+#15 /var/www/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(MenuController), Array)
+#16 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(MenuController), Object(ReflectionMethod), Array)
+#17 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#26 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/menu/upda...')
+#27 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#28 /var/www/agroflorestas/index.php(17): CApplication->run()
+#29 {main}
+REQUEST_URI=/index.php/admin/menu/update/id/1
+HTTP_REFERER=http://localhost:8000/index.php/admin/menu/view/id/1
+---
+2013/05/22 22:54:56 [error] [exception.CException] exception 'CException' with message 'Property "MenuController._id" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(30): CComponent->__get('_id')
+#1 /var/www/agroflorestas/protected/views/admin/menu/_form.php(25): UserIdentity->getId()
+#2 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#3 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#5 /var/www/agroflorestas/protected/views/admin/menu/update.php(21): CController->renderPartial('_form', Array)
+#6 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#7 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('update', Array, true)
+#10 /var/www/agroflorestas/protected/controllers/admin/MenuController.php(103): CController->render('update', Array)
+#11 [internal function]: MenuController->actionUpdate('1')
+#12 /var/www/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(MenuController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(MenuController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#23 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/menu/upda...')
+#24 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#25 /var/www/agroflorestas/index.php(17): CApplication->run()
+#26 {main}
+REQUEST_URI=/index.php/admin/menu/update/id/1
+HTTP_REFERER=http://localhost:8000/index.php/admin/menu/view/id/1
+---
+2013/05/22 22:55:25 [error] [exception.CException] exception 'CException' with message 'Property "MenuController._id" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(30): CComponent->__get('_id')
+#1 /var/www/agroflorestas/protected/views/admin/menu/_form.php(25): UserIdentity->getId()
+#2 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#3 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#5 /var/www/agroflorestas/protected/views/admin/menu/update.php(21): CController->renderPartial('_form', Array)
+#6 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#7 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('update', Array, true)
+#10 /var/www/agroflorestas/protected/controllers/admin/MenuController.php(103): CController->render('update', Array)
+#11 [internal function]: MenuController->actionUpdate('1')
+#12 /var/www/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(MenuController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(MenuController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#23 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/menu/upda...')
+#24 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#25 /var/www/agroflorestas/index.php(17): CApplication->run()
+#26 {main}
+REQUEST_URI=/index.php/admin/menu/update/id/1
+HTTP_REFERER=http://localhost:8000/index.php/admin/menu/view/id/1
+---
+2013/05/22 22:56:59 [error] [exception.CException] exception 'CException' with message 'Property "MenuController._id" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(30): CComponent->__get('_id')
+#1 /var/www/agroflorestas/protected/views/admin/menu/create.php(18): UserIdentity->getId()
+#2 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#3 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#5 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#6 /var/www/agroflorestas/protected/controllers/admin/MenuController.php(79): CController->render('create', Array)
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(49): MenuController->actionCreate()
+#8 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#17 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/menu/crea...')
+#18 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#19 /var/www/agroflorestas/index.php(17): CApplication->run()
+#20 {main}
+REQUEST_URI=/index.php/admin/menu/create
+HTTP_REFERER=http://localhost:8000/index.php/admin/menu/update/id/1
+---
+2013/05/22 23:02:41 [error] [exception.CException] exception 'CException' with message 'Property "MenuController._id" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(30): CComponent->__get('_id')
+#1 /var/www/agroflorestas/protected/views/layouts/main.php(30): UserIdentity->getId()
+#2 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#3 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#4 /var/www/yii/framework/web/widgets/CContentDecorator.php(76): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#5 /var/www/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#6 /var/www/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#7 /var/www/yii/framework/web/CBaseController.php(206): COutputProcessor->run()
+#8 /var/www/yii/framework/web/CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 /var/www/agroflorestas/protected/views/layouts/column2.php(22): CBaseController->endContent()
+#10 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#11 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#12 /var/www/yii/framework/web/CController.php(784): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#13 /var/www/agroflorestas/protected/controllers/admin/MenuController.php(103): CController->render('update', Array)
+#14 [internal function]: MenuController->actionUpdate('1')
+#15 /var/www/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(MenuController), Array)
+#16 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(MenuController), Object(ReflectionMethod), Array)
+#17 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#26 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/menu/upda...')
+#27 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#28 /var/www/agroflorestas/index.php(17): CApplication->run()
+#29 {main}
+REQUEST_URI=/index.php/admin/menu/update/id/1
+HTTP_REFERER=http://localhost:8000/index.php/admin/menu/view/id/1
+---
+2013/05/22 23:18:21 [error] [exception.CException] exception 'CException' with message 'Property "MenuController._id" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(30): CComponent->__get('_id')
+#1 /var/www/agroflorestas/protected/views/layouts/main.php(30): UserIdentity->getId()
+#2 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#3 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#4 /var/www/yii/framework/web/widgets/CContentDecorator.php(76): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#5 /var/www/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#6 /var/www/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#7 /var/www/yii/framework/web/CBaseController.php(206): COutputProcessor->run()
+#8 /var/www/yii/framework/web/CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 /var/www/agroflorestas/protected/views/layouts/column2.php(22): CBaseController->endContent()
+#10 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#11 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#12 /var/www/yii/framework/web/CController.php(784): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#13 /var/www/agroflorestas/protected/controllers/admin/MenuController.php(103): CController->render('update', Array)
+#14 [internal function]: MenuController->actionUpdate('1')
+#15 /var/www/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(MenuController), Array)
+#16 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(MenuController), Object(ReflectionMethod), Array)
+#17 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#26 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/menu/upda...')
+#27 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#28 /var/www/agroflorestas/index.php(17): CApplication->run()
+#29 {main}
+REQUEST_URI=/index.php/admin/menu/update/id/1
+HTTP_REFERER=http://localhost:8000/index.php/admin/menu/view/id/1
+---
+2013/05/22 23:31:06 [error] [exception.CException] exception 'CException' with message 'Property "MenuController._id" is not defined.' in /var/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/agroflorestas/protected/components/UserIdentity.php(30): CComponent->__get('_id')
+#1 /var/www/agroflorestas/protected/views/admin/menu/create.php(18): UserIdentity->getId()
+#2 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/agrofl...')
+#3 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/agrofl...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/agrofl...', Array, true)
+#5 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#6 /var/www/agroflorestas/protected/controllers/admin/MenuController.php(79): CController->render('create', Array)
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(49): MenuController->actionCreate()
+#8 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#17 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/menu/crea...')
+#18 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#19 /var/www/agroflorestas/index.php(17): CApplication->run()
+#20 {main}
+REQUEST_URI=/index.php/admin/menu/create
+HTTP_REFERER=http://localhost:8000/admin/menu
+---
+2013/05/22 23:39:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/permissao".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/permissao')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/permissao
+HTTP_REFERER=http://localhost:8000/index.php/admin/menu/view/id/4
+---
+2013/05/23 21:23:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in /var/www/yii/framework/gii/CCodeGenerator.php:90
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionCode()
+#1 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#3 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('code')
+#5 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/code/...')
+#6 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#7 /var/www/agroflorestas/index.php(17): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php/gii/model/code/id/0
+HTTP_REFERER=http://localhost:8000/index.php/gii/model
+---
+2013/05/23 21:27:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in /var/www/yii/framework/gii/CCodeGenerator.php:119
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionDiff()
+#1 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#3 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('diff')
+#5 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/diff/...')
+#6 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#7 /var/www/agroflorestas/index.php(17): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php/gii/model/diff/id/0
+HTTP_REFERER=http://localhost:8000/index.php/gii/model
+---
+2013/05/23 21:29:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in /var/www/yii/framework/gii/CCodeGenerator.php:119
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionDiff()
+#1 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#3 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('diff')
+#5 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/diff/...')
+#6 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#7 /var/www/agroflorestas/index.php(17): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php/gii/model/diff/id/0
+HTTP_REFERER=http://localhost:8000/index.php/gii/model
+---
+2013/05/23 22:04:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('about')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/agroflorestas/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/about
+---
+2013/05/23 22:36:21 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /var/www/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/menu')
+#9 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /var/www/agroflorestas/index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/menu
+HTTP_REFERER=http://localhost:8000/index.php/site/login
+---
+2013/05/23 22:36:28 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /var/www/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/menu')
+#9 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /var/www/agroflorestas/index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/menu
+HTTP_REFERER=http://localhost:8000/admin/menu
+---
+2013/05/23 22:36:31 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /var/www/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/menu')
+#9 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /var/www/agroflorestas/index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/menu
+HTTP_REFERER=http://localhost:8000/admin/menu
+---
+2013/05/23 22:36:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /var/www/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/usuario')
+#9 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /var/www/agroflorestas/index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/usuario
+HTTP_REFERER=http://localhost:8000/admin/menu
+---
+2013/05/23 23:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in /var/www/yii/framework/gii/CCodeGenerator.php:119
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionDiff()
+#1 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#3 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('diff')
+#5 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud/diff/i...')
+#6 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#7 /var/www/agroflorestas/index.php(17): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php/gii/crud/diff/id/0
+HTTP_REFERER=http://localhost:8000/index.php/gii/crud
+---
+2013/09/15 01:24:00 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "/var/www/agroflorestas/assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in /var/www/yii/framework/web/CAssetManager.php:138
+Stack trace:
+#0 /var/www/yii/framework/web/CAssetManager.php(123): CAssetManager->setBasePath('/var/www/agrofl...')
+#1 /var/www/yii/framework/web/CAssetManager.php(217): CAssetManager->getBasePath()
+#2 /var/www/yii/framework/web/CClientScript.php(462): CAssetManager->publish('/var/www/yii/fr...')
+#3 /var/www/yii/framework/web/CClientScript.php(499): CClientScript->getCoreScriptUrl()
+#4 /var/www/yii/framework/web/CClientScript.php(315): CClientScript->getPackageBaseUrl('jquery')
+#5 /var/www/yii/framework/web/CClientScript.php(208): CClientScript->renderCoreScripts()
+#6 /var/www/yii/framework/web/CController.php(351): CClientScript->render('<!DOCTYPE html ...')
+#7 /var/www/yii/framework/web/CController.php(788): CController->processOutput('<!DOCTYPE html ...')
+#8 /var/www/agroflorestas/protected/controllers/SiteController.php(59): CController->render('login', Array)
+#9 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#10 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#15 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /var/www/agroflorestas/index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/agroflorestas/
+---

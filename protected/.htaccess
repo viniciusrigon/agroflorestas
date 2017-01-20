@@ -1,0 +1,8 @@
+allow for all
+
+RewriteEngine On 
+Options-Indexes 
+RewriteBase /
+
+RewriteCond $1 !^(index\.php|favicon.ico|css|)
+RewriteRule ^(.*)$index.php/$1 [L]
